@@ -43,7 +43,7 @@ body {font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-.nav-link:hover, .nav-link:focus, .nav-link-address:hover, .nav-link-address:hover {color: #404BBF;}
+.nav-link:hover, .nav-link:focus, .nav-link-address:hover, .nav-link-address:focus {color: #404BBF;}
 
 /* <========== Hero sections ===========> */
 .hero-sections {background-color: #2E2F42;}
