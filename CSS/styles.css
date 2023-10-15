@@ -34,7 +34,9 @@ body {font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
+.nav-list-item{color: #2E2F42;}
 .contacts{font-style: normal}
+.address-list-item{color: #434455;}
 .address-list
     {color: #434455;
     font-size: 16px;
