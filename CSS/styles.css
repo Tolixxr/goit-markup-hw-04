@@ -3,14 +3,16 @@
 .link {text-decoration: none;}
 
 button {cursor: pointer;}
-body {font-family: 'Roboto', sans-serif;}
-body {color: #2E2F42;}
+body {font-family: "Roboto", sans-serif;
+      color: #434455;
+      background-color: #FFF;}
 
 
 
 /* Head Section Styles */
 .logo
-   {font-family: 'Raleway',sans-serif;
+   {color: #4d5ae5;
+    font-family: 'Raleway',sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -18,9 +20,9 @@ body {color: #2E2F42;}
     text-transform: uppercase;}
 
 .logo-part
-    {color:#4D5AE5;
+    {color:#2e2f42;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 18px;    
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em  ;
