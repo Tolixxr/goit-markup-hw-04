@@ -34,18 +34,16 @@ body {font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-.nav-list-item{color: #2E2F42;}
-.nav-list-link{color: #2E2F42;}
+.nav-link{color: #2e2f42;}
 .contacts{font-style: normal}
-.address-list-item{color: #434455;}
-.address-list-link{color: #434455;}
+.nav-link-address{color: #434455;}
 .address-list
     {color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-.nav-link:hover, .nav-link:focus {color: #404BBF;}
+.nav-link:hover, .nav-link:focus, .nav-link-address:hover, .nav-link-address:hover {color: #404BBF;}
 
 /* <========== Hero sections ===========> */
 .hero-sections {background-color: #2E2F42;}
