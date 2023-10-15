@@ -29,7 +29,7 @@ body {font-family: "Roboto", sans-serif;
     text-transform: uppercase;}
 
 .nav-list
-    {font-size: 16px;
+    {color:#2E2F42;font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
@@ -58,7 +58,7 @@ body {font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
      background-color: #4D5AE5;}
-     button:hover, button:focus {color: #404BBF}
+     button:hover, button:focus {background-color: #404BBF}
 
 /* Benefits sections */
 .benefits-title{color:#FFF}
@@ -75,13 +75,16 @@ body {font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;}
 
 /* Team section */
+.team-section{background-color: #F4F4FD;}
 .team-title 
-   {text-align: center;
+   {color: #2e2f42;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;}
+.team-list-item {background-color: #FFF     ;}
 .team-person
    {text-align: center;
     font-size: 20px;
@@ -97,8 +100,10 @@ body {font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;}
 
     /* Portfolio section */
+
 .portfolio-title
-   {text-align: center;
+   {
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -117,6 +122,14 @@ body {font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;}
 /* Footer Sections */
 .footer-back{background-color: #2E2F42;}
+.logo-part-second
+    {color:#F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; }
 .footer-article
     {color: #F4F4FD;
     font-size: 16px;
