@@ -51,6 +51,8 @@ align-items: center;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 
 .logo-part
@@ -65,7 +67,7 @@ align-items: center;}
     display: flex;
     align-items: center;
     gap: 40px;}
-.nav-list-item{padding-top: 24px;
+.nav-link{padding-top: 24px;
                padding-bottom: 24px;}
 .nav-link{color: #2e2f42;}
 .contacts{font-style: normal;}
