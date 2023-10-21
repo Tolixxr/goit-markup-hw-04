@@ -41,7 +41,8 @@ border-bottom: 1px solid #e7e9fc}
         align-items: center;
         justify-content: space-between;}
 .navigation{display: flex;
-align-items: center;}
+align-items: center;
+padding-left: 15px;padding-right: 15px;}
 .logo
    {color: #4d5ae5;
     font-family: 'Raleway',sans-serif;
@@ -64,7 +65,8 @@ align-items: center;}
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
-    gap: 40px;}
+    gap: 40px;
+padding-top: 24px;padding-bottom: 24px;}
 .nav-link{color: #2e2f42;}
 .contacts{font-style: normal;}
 .nav-link-address{color: #434455;}
@@ -116,19 +118,21 @@ padding-bottom: 188px;
 /* Benefits sections */
 .benefits-list{display: flex;
     align-items: center;
-    gap: 20px;}
+    gap: 24px;}
 .benefits-name
    {color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    margin-bottom: 8px}
 .benefits-article
    {color: #434455;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;}
+.benefits-list-item{width: calc((100% - 72px) / 4);}
 
 /* Team section */
 .team-section{background-color: #F4F4FD;}
@@ -143,10 +147,11 @@ padding-bottom: 188px;
 margin-bottom: 72px;}
     
 .team-list{display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 24px;}
-.team-list-item {background-color: #FFF     ;}
+.team-list-item {
+    background-color: #FFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;}
 .team-person
    {color: #2e2f42;
     text-align: center;
@@ -154,8 +159,8 @@ margin-bottom: 72px;}
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-margin-top: 32px;
-margin-bottom: 8px;}
+    text-align: center;
+    margin-bottom: 8px}
 .team-part
     {color: #434455;
     text-align: center;
@@ -163,7 +168,8 @@ margin-bottom: 8px;}
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-margin-bottom: 32px;}
+    text-align: center;}
+.team-worker{padding: 32px 0;}
 
     /* Portfolio section */
 
@@ -175,20 +181,24 @@ margin-bottom: 32px;}
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-margin-bottom: 60px;}
+margin-bottom: 72px;}
 .portfolio-list{display: flex;
 justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;}
+.portfolio-list-item{width: calc((100% - 48px) / 3);}
+.portfolio-text{padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;}
 .portfolio-servise
    {color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-margin-top: 32px;
-margin-bottom: 16px;}
+    margin-bottom: 8px}
 
 .portfolio-task
    {color: #434455;
@@ -201,7 +211,8 @@ margin-bottom: 32px;}
 .footer-back{background-color: #2E2F42;
 height: 312px;
 margin-left: auto;
-padding-top: 101.5px;}
+padding-top: 100px;
+padding-bottom: 100px;}
 .footer-logo 
 {color: #4d5ae5;
 font-family: 'Raleway',sans-serif;
@@ -209,7 +220,9 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
-text-transform: uppercase;}
+text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px}
 .logo-part-second
     {color:#F4F4FD;
     font-family: Raleway;
