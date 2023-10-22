@@ -188,7 +188,7 @@ justify-content: center;
     column-gap: 24px;
     row-gap: 48px;}
 .portfolio-list-item{width:calc((100% - 48px)/3);}
-.portfolio-text{padding-top: 32px;padding-bottom: 32px;
+.portfolio-text{padding-top: 32px;padding-bottom: 32px; padding-left: 16px;padding-right: 16px;
 border: 1px solid #e7e9fc;
 border-top: none;}
 .portfolio-servise
@@ -212,7 +212,7 @@ border-top: none;}
 
 .footer-back{background-color: #2E2F42;
 margin-left: auto;
-padding-top: 101.5px;
+padding-top: 100px;
 padding-bottom: 100px;}
 .footer-logo 
 {color: #4d5ae5;
@@ -223,7 +223,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
-margin-bottom: 17.5px}
+margin-bottom: 16px}
 .logo-part-second
     {color:#F4F4FD;
     font-family: Raleway;
