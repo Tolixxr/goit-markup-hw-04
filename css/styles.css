@@ -101,7 +101,7 @@ transform: translateY(100%);}
     align-items: center;
     gap: 40px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-.nav-link:hover, .nav-link:focus, .nav-link-address:hover, .nav-link-address:focus {color: #404BBF;}
+.logo-part:hover, .logo-part:focus, .nav-link:hover, .nav-link:focus, .nav-link-address:hover, .nav-link-address:focus {color: #404BBF;}
 .nav-link:hover, .nav-link:focus{position: relative;}
 
 
