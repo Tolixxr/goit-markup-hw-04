@@ -77,7 +77,7 @@ align-items: center;}
 .contacts{font-style: normal;}
 .nav-link-address{color: #434455;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-.nav-link{position: relative;}
+.nav-link{position: relative; overflow: hidden;}
 .nav-link::after
 {display: block;
  width: 48px;
@@ -91,6 +91,7 @@ position: absolute;
 bottom: -1px;
 left: 0;
 border-radius: 2px;
+transform: translateY(100%);
 }
 .address-list
     {color: #434455;
@@ -102,8 +103,9 @@ border-radius: 2px;
     align-items: center;
     gap: 40px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-.benefits-list-item{}
 .nav-link:hover, .nav-link:focus, .nav-link-address:hover, .nav-link-address:focus {color: #404BBF;}
+.nav-link:hover .nav-link::after{transform: translateY(0%);}
+
 
 /* <========== Hero sections ===========> */
 .hero-sections {background-color: #2E2F42;
