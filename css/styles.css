@@ -317,15 +317,18 @@ margin-bottom: 16px}
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;}
-.footer-container{display: flex; gap: 120px;}
+.footer-container
+{display: flex; 
+    align-items: baseline;}
+.footer-logo-container{margin-right: 120px;}
 .footer-social-title
    {color:#FFF;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+margin-bottom: 16px;}
     .footer-social{display: flex;
         column-gap: 24px;
-        justify-content: center;
-        margin-top: 16px;}
+        justify-content: center;}
