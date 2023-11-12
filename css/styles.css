@@ -332,7 +332,7 @@ margin-bottom: 16px}
     letter-spacing: 0.02em;
 margin-bottom: 16px;}
 .footer-social{display: flex;
-        column-gap: 16px;
+        gap: 16px;
         justify-content: center;}
         
 .footer-social-icon-container {
