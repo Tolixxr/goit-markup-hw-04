@@ -105,7 +105,7 @@ border-radius: 2px;
 height: 600px;
 padding-top: 188px;
 padding-bottom: 188px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.png);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img.jpg);
 background-size: cover;
 max-width: 1440px;
 background-repeat: no-repeat;
