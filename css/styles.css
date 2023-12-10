@@ -79,7 +79,7 @@ align-items: center;}
 .nav-link-address{color: #434455;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .nav-link{ overflow: hidden;}
-.nav-link::after
+.nav-link-studio::after
 {display: block;
  width: 48px;
  height: 4px;
