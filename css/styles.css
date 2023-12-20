@@ -76,10 +76,10 @@ align-items: center;}
         color: #2e2f42;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .nav-link-studio 
-     {padding-top: 24px;
+     {  position: relative;
+        color: #404BBF;
+        padding-top: 24px;
      padding-bottom: 24px;
-     position: relative;
-     color:#404BBF;
      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .contacts{font-style: normal;}
 .nav-link-address{color: #434455;
